@@ -23,10 +23,10 @@ export function Right() {
   ];
   const router = useRouter()
   return (
-    <div className="  flex w-full mx-auto">
+    <div className="  flex  items-center justify-center">
       <Modal>
         <ModalTrigger className=" flex justify-center group/modal-btn">
-          <ShinyButton  text="Talk"/>
+          <ShinyButton  text=" Soon"/>
           <div className="-translate-x-40 group-hover/modal-btn:translate-x-0 flex items-center justify-center absolute inset-0 transition duration-500 text-white z-20">
             ❤️
           </div>
