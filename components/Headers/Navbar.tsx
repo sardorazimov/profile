@@ -21,7 +21,7 @@ function Navbar({ className }: { className?: string }) {
    <div
       className={cn("fixed top-10 inset-x-0 max-w-screen-3xl z-50", className)}
     >
-        <div className=" py-8 items-center justify-center w-full top-2">
+        <div className=" py-3 items-center justify-center w-full top-2">
          <Menu setActive={setActive}>
         <MenuItem setActive={setActive} active={active} item="Services">
           <div className="flex flex-col space-y-4 text-sm">
@@ -31,34 +31,7 @@ function Navbar({ className }: { className?: string }) {
             <HoveredLink href="/branding">Branding</HoveredLink>
           </div>
         </MenuItem>
-        <MenuItem setActive={setActive} active={active} item="Products">
-          <div className="  text-sm grid grid-cols-2 gap-10 p-4">
-            <ProductItem
-              title="Coming soon"
-              href="/"
-              src=""
-              description="Prepare for tech interviews like never before."
-            />
-            <ProductItem
-              title="Coming Soon"
-              href="/"
-              src="/"
-              description="Production ready Tailwind css components for your next project"
-            />
-            <ProductItem
-              title="Coming Soon"
-              href="/"
-              src="/"
-              description="Never write from scratch again. Go from idea to blog in minutes."
-            />
-            <ProductItem
-              title="Coming Soon"
-              href=""
-              src="/"
-              description="Respond to government RFPs, RFIs and RFQs 10x faster using AI"
-            />
-          </div>
-        </MenuItem>
+    
         <MenuItem setActive={setActive} active={active} item="Pricing">
           <div className="flex flex-col space-y-4 text-sm">
             <HoveredLink href="/hobby">Hobby</HoveredLink>

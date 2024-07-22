@@ -23,7 +23,7 @@ export function Right() {
   ];
   const router = useRouter()
   return (
-    <div className="  flex items-center justify-center">
+    <div className="  flex w-full mx-auto">
       <Modal>
         <ModalTrigger className=" flex justify-center group/modal-btn">
           <ShinyButton  text="Talk"/>

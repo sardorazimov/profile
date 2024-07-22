@@ -6,10 +6,13 @@ import Landing from "@/components/Pages/Landing"
 const Explorelayout = ({children}: {children: React.ReactNode}) => {
   return (
     <main>
-        <div className=" py-6 mx-auto">
+        <div className="  mx-auto">
             <Header />
         </div>
-        <Landing />
+        <div className="py-16">
+         <Landing /> 
+        </div>
+        
       {children}
     </main>
   )
