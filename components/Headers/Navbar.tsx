@@ -11,10 +11,12 @@ export function NavbarCenter() {
   const router = useRouter()
   return (
     <div className="relative w-full flex  ">
-      <div className="fixed top-10 inset-x-0 max-w-screen-3xl z-50">
+      <div className="fixed my-5 inset-x-0 max-w-screen-3xl z-50 cursor-pointer">
         <div className=" items-center justify-center w-full top-2">
           <div className="relative shadow-input flex justify-center space-x-4 px-8  dark:border-white/[0.2]">
             <div className="" onClick={() => router.push('/works')}>Works</div>
+            <div className="" onClick={() => router.push('/redit')}>Explore</div>
+            <div className="" onClick={() => router.push('/works')}></div>
           </div>
         </div>
       </div>
