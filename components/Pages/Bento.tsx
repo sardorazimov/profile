@@ -11,6 +11,7 @@ import { IconBrandYoutubeFilled } from "@tabler/icons-react";
 import Link from "next/link";
 import { Animated } from "./Amazing";
 import { TextEffect } from "./Text";
+import { Cart } from "../cards/card";
 
 export function Bento() {
   const features = [
@@ -133,11 +134,11 @@ export const SkeletonThree = () => {
       target="__blank"
       className="relative flex gap-10  h-full group/image"
     >
-      <div className="w-full  mx-auto bg-transparent dark:bg-transparent group h-full">
+      <div className="w-full  mx-auto bg-transparent dark:bg-transparent h-full">
         <div className="flex flex-1 w-full h-full flex-col space-y-2  relative">
           {/* TODO */}
-          <div className="h-full w-full aspect-square object-cover object-center rounded-sm blur-none group-hover/image:blur-md transition-all duration-200"  >
-          <TextEffect />
+          <div className="h-full w-full aspect-square object-cover object-center rounded-sm blur-none transition-all duration-200"  >
+          <Cart />
           </div>
         </div>
       </div>

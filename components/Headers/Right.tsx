@@ -23,7 +23,7 @@ export function Right() {
   ];
   const router = useRouter()
   return (
-    <div className="  flex  items-center justify-center">
+    <div className=" hover:py-40 flex  items-center justify-center">
       <Modal>
         <ModalTrigger className=" flex justify-center group/modal-btn">
           <ShinyButton  text=" Soon"/>
