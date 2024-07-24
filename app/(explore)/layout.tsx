@@ -11,7 +11,6 @@ const Explorelayout = ({ children }: { children: React.ReactNode }) => {
         <Header />
       </div>
       <div className="py-16">
-        <Landing />
       </div>
       {children}
     </main>

@@ -28,9 +28,10 @@ export default function RootLayout({
             disableTransitionOnChange
           >
             {children}
-            <Footer />
+            {/* <Footer /> */}
             <SpeedInsights />
           </ThemeProvider>
+          
       </body>
     </html>
   );
