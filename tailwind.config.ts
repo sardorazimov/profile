@@ -90,12 +90,24 @@ const config = {
             "background-position": "0% 0%",
           },
         },
+        gradient: {
+          to: {
+            backgroundPosition: "var(--bg-size) 0",
+          },
+        },
+        "background-position-spin": {
+          "0%": { backgroundPosition: "top center" },
+          "100%": { backgroundPosition: "bottom center" },
+        },
 
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
          move: "move 5s linear infinite",
+         gradient: "gradient 8s linear infinite",
+         backgroundPositionSpin:
+         "background-position-spin 3000ms infinite alternate",
 
       },
     },
