@@ -1,5 +1,9 @@
+"use client"
 /* eslint-disable @next/next/no-img-element */
 import Explorecard from "@/components/cards/explorecard"
+import { Gemini } from "@/components/ExploreSet/Gemini"
+import Gradatient from "@/components/ExploreSet/Gradatient"
+import { Icons } from "@/components/ExploreSet/Icons"
 import Number from "@/components/ExploreSet/Number"
 import { Text } from "@/components/ExploreSet/Text"
 import Video from "@/components/ExploreSet/Video"
@@ -21,11 +25,24 @@ const page = () => {
            <Video />
           </div>
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10 md:gap-2 max-w-7xl mx-auto">
-          <div className=" gap-x-6 mx-3    ">
-            <Explorecard />
-           
+        <div className="flex flex-col lg:flex-row  max-w-screen-xl gap-x-4 mx-1">
+          <div className="">
+            <Explorecard /> 
           </div>
+          <div>
+           <Gradatient /> 
+          </div>
+          <div>
+            <Icons />
+          </div>
+        </div>
+        <div className="border-b w-full flex items-center justify-center text-bold border-transparent " >
+           <h1 className="text-5xl"> Coming Soon</h1>
+        </div>
+        
+        <div className="blur-md cursor-not-allowed">
+          
+          <Gemini  />
         </div>
       </div>
     </main>
