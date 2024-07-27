@@ -1,9 +1,10 @@
+import ExampleHero from "@/components/example/ExampleHero"
 
 
 const page = () => {
   return (
-    <div className="flex max-w-screen-2xl h-full blur-xl">
-        <video autoPlay muted loop src="next.mp4" className="w-full h-full"></video>
+    <div className="relative">
+        <ExampleHero />
      </div>
   )
 }
