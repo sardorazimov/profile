@@ -1,10 +1,15 @@
 
+import Saline from "../Spline/Sp";
 import { ContainerScroll } from "../ui/container-scroll-animation";7
 import  Image from "next/image"
 const HobyHero = () => {
   return (
     <div className="flex flex-col my-4">
-        <div className="flex items-center justify-center ">
+     <div className="flex w-full items-center justify-center h-screen bg-transparent">
+       <Saline />
+     </div>
+
+        {/* <div className="flex items-center justify-center ">
             <h1></h1>
             <ContainerScroll
         titleComponent={
@@ -27,7 +32,7 @@ const HobyHero = () => {
           draggable={false}
         />
       </ContainerScroll>  
-        </div>
+        </div> */}
        
     </div>
   )
