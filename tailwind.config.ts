@@ -99,6 +99,14 @@ const config = {
           "0%": { backgroundPosition: "top center" },
           "100%": { backgroundPosition: "bottom center" },
         },
+        ripple: {
+          "0%, 100%": {
+            transform: "translate(-50%, -50%) scale(1)",
+          },
+          "50%": {
+            transform: "translate(-50%, -50%) scale(0.9)",
+          },
+        },
 
       },
       animation: {
@@ -106,8 +114,8 @@ const config = {
         "accordion-up": "accordion-up 0.2s ease-out",
          move: "move 5s linear infinite",
          gradient: "gradient 8s linear infinite",
-         backgroundPositionSpin:
-         "background-position-spin 3000ms infinite alternate",
+         backgroundPositionSpin: "background-position-spin 3000ms infinite alternate",
+        ripple:  "ripple var(--duration,2s) ease calc(var(--i, 0)*.2s) infinite",
 
       },
     },

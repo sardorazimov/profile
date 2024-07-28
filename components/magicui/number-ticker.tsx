@@ -8,7 +8,7 @@ import { cn } from "@/lib/utils";
 export default function NumberTicker({
   value,
   direction = "up",
-  delay = 0,
+  delay = 2,
   className,
 }: {
   value: number;
@@ -19,8 +19,8 @@ export default function NumberTicker({
   const ref = useRef<HTMLSpanElement>(null);
   const motionValue = useMotionValue(direction === "down" ? value : 0);
   const springValue = useSpring(motionValue, {
-    damping: 60,
-    stiffness: 100,
+    damping: 1,
+    stiffness: 1,
   });
   const isInView = useInView(ref, { once: true, margin: "0px" });
 

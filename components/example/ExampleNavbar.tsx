@@ -37,8 +37,9 @@ const ExampleNavbar = () => {
             </div>
             <div className="flex h-full w-full items-center lg:hidden ">
                 <div className="flex justify-between items-center w-full rounded-full px-2.5 py-1.5 transition duration-200 bg-neutral-50 dark:bg-neutral-900 shadow-[0px_-2px_0px_0px_var(--neutral-100),0px_2px_0px_0px_var(--neutral-100)] dark:shadow-[0px_-2px_0px_0px_var(--neutral-800),0px_2px_0px_0px_var(--neutral-800)]">
-                    <a className="font-normal flex space-x-2 items-center text-sm mr-4  text-black px-2 py-1  relative z-20" href="/"><div className="h-5 w-6 bg-black dark:bg-white rounded-br-lg rounded-tr-sm rounded-tl-lg rounded-bl-sm">
-                    </div><span className="font-medium text-white">Azimov</span>
+                    <a className="font-normal flex space-x-2 items-center text-sm mr-4  text-black px-2 py-1  relative z-20" href="/">
+                    <img src="/svg/logo.svg" className="h-5 w-6   rounded-br-lg rounded-tr-sm rounded-tl-lg rounded-bl-sm" />
+                    <span className="font-medium text-white">Azimov</span>
                     </a>
                     <MobilNavbar />
                 </div>
