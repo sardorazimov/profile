@@ -21,6 +21,7 @@ const ExampleNavbar = () => {
                             <a className="flex items-center justify-center text-sm leading-[110%] px-4 py-2 rounded-md hover:bg-[#F5F5F5] dark:hover:bg-neutral-800 text-neutral-200" href="/works">Works</a>
                             <a className="flex items-center justify-center text-sm leading-[110%] px-4 py-2 rounded-md hover:bg-[#F5F5F5] dark:hover:bg-neutral-800 text-neutral-200" href="/hoby">Hoby</a>
                             <a className="flex items-center justify-center text-sm leading-[110%] px-4 py-2 rounded-md hover:bg-[#F5F5F5] dark:hover:bg-neutral-800 text-neutral-200" href="/example">Explore</a>
+                            <a className="flex items-center justify-center text-sm leading-[110%] px-4 py-2 rounded-md hover:bg-[#F5F5F5] dark:hover:bg-neutral-800 text-neutral-200" href="https://dahboard-azimov.vercel.app/">Dashboard</a>
                         </div>
                     </div>
                     <div className="flex space-x-2 items-center">

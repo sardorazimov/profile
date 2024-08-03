@@ -96,6 +96,29 @@
   text-align: center;
   color: white;
 }
+@keyframes borderAnimation {
+  0% {
+    border-color: red;
+  }
+  25% {
+    border-color: yellow;
+  }
+  50% {
+    border-color: green;
+  }
+  75% {
+    border-color: blue;
+  }
+  100% {
+    border-color: red;
+  }
+}
+
+.animated-border {
+  border-width: 2px;
+  border-style: solid;
+  animation: borderAnimation 4s infinite;
+}
 
 
 

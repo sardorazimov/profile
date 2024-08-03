@@ -115,7 +115,7 @@ const config = {
          move: "move 5s linear infinite",
          gradient: "gradient 8s linear infinite",
          backgroundPositionSpin: "background-position-spin 3000ms infinite alternate",
-        ripple:  "ripple var(--duration,2s) ease calc(var(--i, 0)*.2s) infinite",
+         ripple:  "ripple var(--duration,2s) ease calc(var(--i, 0)*.2s) infinite",
 
       },
     },

@@ -1,12 +1,15 @@
 // components/Hero.js
-import SVGGrid from './Svg';
+import { GridBeam } from './GridBeam';
+import SvgGrid from './Svg';
+
 
 const Hero = () => (
-  <div className="hero">
-    <SVGGrid />
-    <div className="hero-content">
-       
-    </div>
+  <div className="relative w-full h-screen px-12 ">
+    <SvgGrid>
+      <div>
+        helo
+      </div>
+    </SvgGrid>
   </div>
 );
 
