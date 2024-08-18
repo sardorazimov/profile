@@ -34,7 +34,7 @@ const MobilNavbar = () => {
                     <DropdownMenuItem>
                         <Link href="https://dahboard-azimov.vercel.app/"></Link>
                     </DropdownMenuItem>
-                    <DropdownMenuItem>H -Soon</DropdownMenuItem>
+                    <DropdownMenuItem>Spline</DropdownMenuItem>
                     <DropdownMenuItem>E -Soon</DropdownMenuItem>
                     
                 </DropdownMenuContent>
