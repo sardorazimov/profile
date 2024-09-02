@@ -1,6 +1,6 @@
 import Feature from "@/components/Footers/Feature"
 import Header from "@/components/Headers/Header"
-import { NavbarCenter } from "@/components/Headers/Navbar"
+
 import Landing from "@/components/Pages/Landing"
 
 
@@ -9,8 +9,6 @@ const Explorelayout = ({ children }: { children: React.ReactNode }) => {
     <main>
       <div className="  mx-auto">
         <Header />
-      </div>
-      <div className="py-16">
       </div>
       {children}
     </main>
