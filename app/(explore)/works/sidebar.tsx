@@ -52,24 +52,24 @@ const WorkSidebar = ({icon:Icon}:WorkSidebarProps) => {
   const router = useRouter();
   const pathname = usePathname()
   return (
-    <aside className='relative '>
+    <aside className='relative  font-md '>
       <div className='fixed flex-col w-44 h-screen border-r-2 border-neutral-800 '>
         <div className='flex '>
           <div className='flex w-full items-center'>
-            <ul className='w-full  flex flex-col rounded-lg gap-y-7'>
-            {links.map(link => {
-            const isActive = pathname === link.path;
-             return (
-             <li key={`${link.label}-${link.path}`} 
-             className='w-full items-center flex justify-center gap-x-10 hover:bg-muted rounded-lg'>
-            <Link className={isActive ? 
-             'color-white bg-white/15 w-full rounded-lg items-center justify-center flex ' : ''} 
-            href={link.path}>
-              { link.label }
+            <ul className='w-full  flex flex-col rounded-lg gap-y-3'>
+              {links.map(link => {
+               const isActive = pathname === link.path;
+               return (
+               <li key={`${link.label}-${link.path}`} 
+                className='w-full items-center flex justify-center hover:bg-white/15 rounded-lg'>
+                <Link className={isActive ? 
+                'color-white bg-white/15 w-full rounded-lg items-center justify-center flex ' : ''} 
+                href={link.path}>
+                { link.label }
             </Link>
           </li>
-        )
-      })}
+            )
+           })}
             </ul>
           </div>
         </div>

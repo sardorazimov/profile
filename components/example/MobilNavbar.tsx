@@ -31,11 +31,11 @@ const MobilNavbar = () => {
                     <DropdownMenuItem onClick={() => router.push('/hoby')}>Hoby</DropdownMenuItem>
                     <DropdownMenuItem onClick={() => router.push('/example')}>Explore</DropdownMenuItem>
                     
-                    <DropdownMenuItem>
+                    {/* <DropdownMenuItem>
                         <Link href="https://dahboard-azimov.vercel.app/"></Link>
                     </DropdownMenuItem>
                     <DropdownMenuItem>Spline</DropdownMenuItem>
-                    <DropdownMenuItem>E -Soon</DropdownMenuItem>
+                    <DropdownMenuItem>E -Soon</DropdownMenuItem> */}
                     
                 </DropdownMenuContent>
             </DropdownMenu>
