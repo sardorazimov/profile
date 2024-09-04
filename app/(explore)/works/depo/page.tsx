@@ -21,7 +21,7 @@ const page = () => {
             <p className="text-muted-foreground">Software Engineer | Avid Traveler</p>
           </div>
           <p className="text-sm md:text-base">
-            John is a passionate software engineer with a love for exploring new places. He's always eager to learn and
+            John is a passionate software engineer with a love for exploring new places. Hes always eager to learn and
             share his knowledge with the community.
           </p>
         </div>
