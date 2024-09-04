@@ -45,14 +45,14 @@ const page = () => {
      <section className="mb-8">
           <h2 className="text-2xl font-bold mb-4">Featured Books</h2>
           <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6">
-            <Card className="bg-background shadow-md rounded-lg overflow-hidden border-white/10">
+            <Card className="bg-background shadow-md rounded-lg border-white/15  overflow-hidden h-96 ">
               <img
-                src="/placeholder.svg"
+                src="/img/coming-soon.png"
                 alt="Book Cover"
                 width={300}
-                height={400}
-                className="w-full h-[400px] object-cover"
-                style={{ aspectRatio: "300/400", objectFit: "cover" }}
+                height={200}
+                className="w-full h-[200px] object-cover"
+                // style={{ aspectRatio: "300/400", objectFit: "cover" }}
               />
               <CardContent className="p-4">
                 <h3 className="text-lg font-bold mb-2">The Great Gatsby</h3>
@@ -60,14 +60,14 @@ const page = () => {
                 <Button className="w-full">Borrow</Button>
               </CardContent>
             </Card>
-            <Card className="bg-background shadow-md rounded-lg overflow-hidden">
+            <Card className="bg-background shadow-md rounded-lg border-white/15 h-96 overflow-hidden">
               <img
-                src="/placeholder.svg"
+                src="/img/coming-soon.png"
                 alt="Book Cover"
                 width={300}
-                height={400}
-                className="w-full h-[400px] object-cover"
-                style={{ aspectRatio: "300/400", objectFit: "cover" }}
+                height={200}
+                className="w-full h-[200px] object-cover"
+                // style={{ aspectRatio: "300/400", objectFit: "cover" }}
               />
               <CardContent className="p-4">
                 <h3 className="text-lg font-bold mb-2">To Kill a Mockingbird</h3>
@@ -75,14 +75,14 @@ const page = () => {
                 <Button className="w-full">Borrow</Button>
               </CardContent>
             </Card>
-            <Card className="bg-background shadow-md rounded-lg overflow-hidden">
+            <Card className="bg-background shadow-md rounded-lg border-white/15 h-96 overflow-hidden">
               <img
-                src="/placeholder.svg"
+                src="/img/coming-soon.png"
                 alt="Book Cover"
                 width={300}
-                height={400}
-                className="w-full h-[400px] object-cover"
-                style={{ aspectRatio: "300/400", objectFit: "cover" }}
+                height={200}
+                className="w-full h-[200px] object-cover"
+                // style={{ aspectRatio: "300/400", objectFit: "cover" }}
               />
               <CardContent className="p-4">
                 <h3 className="text-lg font-bold mb-2">1984</h3>
@@ -90,14 +90,14 @@ const page = () => {
                 <Button className="w-full">Borrow</Button>
               </CardContent>
             </Card>
-            <Card className="bg-background shadow-md rounded-lg overflow-hidden">
+            <Card className="bg-background shadow-md rounded-lg border-white/15 h-96 overflow-hidden">
               <img
-                src="/placeholder.svg"
+                src="/img/coming-soon.png"
                 alt="Book Cover"
                 width={300}
-                height={400}
-                className="w-full h-[400px] object-cover"
-                style={{ aspectRatio: "300/400", objectFit: "cover" }}
+                height={200}
+                className="w-full h-[200px] object-cover"
+                // style={{ aspectRatio: "300/400", objectFit: "cover" }}
               />
               <CardContent className="p-4">
                 <h3 className="text-lg font-bold mb-2">The Catcher in the Rye</h3>
@@ -112,42 +112,42 @@ const page = () => {
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
             <Link
               href="#"
-              className="bg-muted text-muted-foreground py-3 px-4 rounded-md hover:bg-accent hover:text-accent-foreground transition-colors"
+              className="bg-white/10 text-muted-foreground py-3 px-4 rounded-md hover:bg-accent hover:text-accent-foreground transition-colors"
               prefetch={false}
             >
               Fiction
             </Link>
             <Link
               href="#"
-              className="bg-muted text-muted-foreground py-3 px-4 rounded-md hover:bg-accent hover:text-accent-foreground transition-colors"
+              className="bg-white/10 text-muted-foreground py-3 px-4 rounded-md hover:bg-accent hover:text-accent-foreground transition-colors"
               prefetch={false}
             >
               Non-Fiction
             </Link>
             <Link
               href="#"
-              className="bg-muted text-muted-foreground py-3 px-4 rounded-md hover:bg-accent hover:text-accent-foreground transition-colors"
+              className="bg-white/10 text-muted-foreground py-3 px-4 rounded-md hover:bg-accent hover:text-accent-foreground transition-colors"
               prefetch={false}
             >
               Biography
             </Link>
             <Link
               href="#"
-              className="bg-muted text-muted-foreground py-3 px-4 rounded-md hover:bg-accent hover:text-accent-foreground transition-colors"
+              className="bg-white/10 text-muted-foreground py-3 px-4 rounded-md hover:bg-accent hover:text-accent-foreground transition-colors"
               prefetch={false}
             >
               History
             </Link>
             <Link
               href="#"
-              className="bg-muted text-muted-foreground py-3 px-4 rounded-md hover:bg-accent hover:text-accent-foreground transition-colors"
+              className="bg-white/10 text-muted-foreground py-3 px-4 rounded-md hover:bg-accent hover:text-accent-foreground transition-colors"
               prefetch={false}
             >
               Science
             </Link>
             <Link
               href="#"
-              className="bg-muted text-muted-foreground py-3 px-4 rounded-md hover:bg-accent hover:text-accent-foreground transition-colors"
+              className="bg-white/10 text-muted-foreground py-3 px-4 rounded-md hover:bg-accent hover:text-accent-foreground transition-colors"
               prefetch={false}
             >
               Romance
@@ -157,14 +157,14 @@ const page = () => {
         <section>
           <h2 className="text-2xl font-bold mb-4">Recommended Books</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-            <Card className="bg-background shadow-md rounded-lg overflow-hidden">
+            <Card className="bg-background shadow-md rounded-lg border-white/15 h-96 overflow-hidden">
               <img
-                src="/placeholder.svg"
+                src="/img/coming-soon.png"
                 alt="Book Cover"
                 width={300}
-                height={400}
-                className="w-full h-[400px] object-cover"
-                style={{ aspectRatio: "300/400", objectFit: "cover" }}
+                height={200}
+                className="w-full h-[200px] object-cover"
+                // style={{ aspectRatio: "300/400", objectFit: "cover" }}
               />
               <CardContent className="p-4">
                 <h3 className="text-lg font-bold mb-2">The Kite Runner</h3>
@@ -172,14 +172,14 @@ const page = () => {
                 <Button className="w-full">Borrow</Button>
               </CardContent>
             </Card>
-            <Card className="bg-background shadow-md rounded-lg overflow-hidden">
+            <Card className="bg-background shadow-md rounded-lg border-white/15 h-96 overflow-hidden">
               <img
-                src="/placeholder.svg"
+                src="/img/coming-soon.png"
                 alt="Book Cover"
                 width={300}
                 height={400}
-                className="w-full h-[400px] object-cover"
-                style={{ aspectRatio: "300/400", objectFit: "cover" }}
+                className="w-full h-[200px] object-cover"
+                // style={{ aspectRatio: "300/400", objectFit: "cover" }}
               />
               <CardContent className="p-4">
                 <h3 className="text-lg font-bold mb-2">The Alchemist</h3>
@@ -187,14 +187,14 @@ const page = () => {
                 <Button className="w-full">Borrow</Button>
               </CardContent>
             </Card>
-            <Card className="bg-background shadow-md rounded-lg overflow-hidden">
+            <Card className="bg-background shadow-md rounded-lg border-white/15 h-96 overflow-hidden">
               <img
-                src="/placeholder.svg"
+                src="/img/coming-soon.png"
                 alt="Book Cover"
                 width={300}
                 height={400}
-                className="w-full h-[400px] object-cover"
-                style={{ aspectRatio: "300/400", objectFit: "cover" }}
+                className="w-full h-[200px] object-cover"
+                // style={{ aspectRatio: "300/400", objectFit: "cover" }}
               />
               <CardContent className="p-4">
                 <h3 className="text-lg font-bold mb-2">The Fault in Our Stars</h3>
@@ -202,14 +202,14 @@ const page = () => {
                 <Button className="w-full">Borrow</Button>
               </CardContent>
             </Card>
-            <Card className="bg-background shadow-md rounded-lg overflow-hidden">
+            <Card className="bg-background shadow-md rounded-lg border-white/15 h-96 overflow-hidden">
               <img
-                src="/placeholder.svg"
+                src="/img/coming-soon.png"
                 alt="Book Cover"
                 width={300}
-                height={400}
-                className="w-full h-[400px] object-cover"
-                style={{ aspectRatio: "300/400", objectFit: "cover" }}
+                height={200}
+                className="w-full h-[200px] object-cover"
+                // style={{ aspectRatio: "300/400", objectFit: "cover" }}
               />
               <CardContent className="p-4">
                 <h3 className="text-lg font-bold mb-2">The Book Thief</h3>
