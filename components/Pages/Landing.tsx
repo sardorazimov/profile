@@ -1,5 +1,4 @@
 import Link from "next/link"
-import { CardBody, CardContainer, CardItem } from "../ui/Card"
 import { TracingBeam } from "../ui/Tracking"
 import Image from "next/image"
 import { Hero } from "./Hero"
