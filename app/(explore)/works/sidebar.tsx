@@ -15,22 +15,22 @@ const links=[
   },
   {
     label: 'AiSaas',
-    path: '/',
+    path: '/works/saas',
     icon: "/logo.png"
   },
   {
     label: 'Dark Saas',
-    path: '/',
+    path: '/works/dark',
     icon: "/logo.png"
   },
   {
     label: 'Light Saas',
-    path: '/',
+    path: '/works/light',
     icon: "/logo.png"
   },
   {
     label: 'Moderm',
-    path: '/',
+    path: '/works/modrem',
     icon: "/logo.png"
   },
   // {
