@@ -2,6 +2,7 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/Card"
 import Link from "next/link"
+import WorksDialog from "./dialog"
 
 
 const page = () => {
@@ -57,7 +58,7 @@ const page = () => {
               <CardContent className="p-4">
                 <h3 className="text-lg font-bold mb-2">The Great Gatsby</h3>
                 <p className="text-muted-foreground mb-4">F. Scott Fitzgerald</p>
-                <Button className="w-full">Borrow</Button>
+                <WorksDialog />
               </CardContent>
             </Card>
             <Card className="bg-background shadow-md rounded-lg border-white/15 h-96 overflow-hidden">
@@ -72,7 +73,8 @@ const page = () => {
               <CardContent className="p-4">
                 <h3 className="text-lg font-bold mb-2">To Kill a Mockingbird</h3>
                 <p className="text-muted-foreground mb-4">Harper Lee</p>
-                <Button className="w-full">Borrow</Button>
+                <WorksDialog />
+                {/* TDOO */}
               </CardContent>
             </Card>
             <Card className="bg-background shadow-md rounded-lg border-white/15 h-96 overflow-hidden">
@@ -87,7 +89,8 @@ const page = () => {
               <CardContent className="p-4">
                 <h3 className="text-lg font-bold mb-2">1984</h3>
                 <p className="text-muted-foreground mb-4">George Orwell</p>
-                <Button className="w-full">Borrow</Button>
+                <WorksDialog />
+                {/* TDOO */}
               </CardContent>
             </Card>
             <Card className="bg-background shadow-md rounded-lg border-white/15 h-96 overflow-hidden">
@@ -102,7 +105,8 @@ const page = () => {
               <CardContent className="p-4">
                 <h3 className="text-lg font-bold mb-2">The Catcher in the Rye</h3>
                 <p className="text-muted-foreground mb-4">J.D. Salinger</p>
-                <Button className="w-full">Borrow</Button>
+                <WorksDialog />
+                {/* TDOO */}
               </CardContent>
             </Card>
           </div>
@@ -169,7 +173,8 @@ const page = () => {
               <CardContent className="p-4">
                 <h3 className="text-lg font-bold mb-2">The Kite Runner</h3>
                 <p className="text-muted-foreground mb-4">Khaled Hosseini</p>
-                <Button className="w-full">Borrow</Button>
+                <WorksDialog />
+                {/* TDOO */}
               </CardContent>
             </Card>
             <Card className="bg-background shadow-md rounded-lg border-white/15 h-96 overflow-hidden">
@@ -184,7 +189,8 @@ const page = () => {
               <CardContent className="p-4">
                 <h3 className="text-lg font-bold mb-2">The Alchemist</h3>
                 <p className="text-muted-foreground mb-4">Paulo Coelho</p>
-                <Button className="w-full">Borrow</Button>
+                <WorksDialog />
+                {/* TDOO */}
               </CardContent>
             </Card>
             <Card className="bg-background shadow-md rounded-lg border-white/15 h-96 overflow-hidden">
@@ -199,7 +205,8 @@ const page = () => {
               <CardContent className="p-4">
                 <h3 className="text-lg font-bold mb-2">The Fault in Our Stars</h3>
                 <p className="text-muted-foreground mb-4">John Green</p>
-                <Button className="w-full">Borrow</Button>
+                <WorksDialog />
+                {/* TDOO */}
               </CardContent>
             </Card>
             <Card className="bg-background shadow-md rounded-lg border-white/15 h-96 overflow-hidden">
@@ -214,7 +221,8 @@ const page = () => {
               <CardContent className="p-4">
                 <h3 className="text-lg font-bold mb-2">The Book Thief</h3>
                 <p className="text-muted-foreground mb-4">Markus Zusak</p>
-                <Button className="w-full">Borrow</Button>
+                <WorksDialog />
+                {/* TDOO */}
               </CardContent>
             </Card>
           </div>
