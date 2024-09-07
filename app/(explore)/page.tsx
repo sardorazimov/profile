@@ -3,7 +3,7 @@ import Landing from "@/components/Pages/Landing"
 
 const page = () => {
   return (
-    <main className="mt-24">
+    <main className="py-24">
          <Landing />
     </main>
   )

@@ -47,7 +47,7 @@ export function Bento() {
     },
   ];
   return (
-    <div className="relative z-20 py-5 lg:py-8 max-w-7xl mx-auto">
+    <div className="relative px-3 z-20 py-5 lg:py-8 max-w-7xl mx-auto">
       <div className="px-8">
         <h4 className="text-3xl lg:text-5xl lg:leading-tight max-w-5xl mx-auto text-center tracking-tight font-medium text-black dark:text-white">
           

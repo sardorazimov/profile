@@ -74,8 +74,8 @@ export function Animated({
           </Circle>
         </div>
         <div className="flex flex-col justify-center bg-transparent ">
-          <Circle ref={div7Ref} className=" bg-transparent h-24 w-24">
-            <img src="/img/o.jpeg" alt=""  className="w-full h-full rounded-full"/>
+          <Circle ref={div7Ref} className=" bg-transparent h-20 w-20 border-white/10">
+            <img src="/logo.png" alt=""  className="w-full h-full rounded-full"/>
           </Circle>
         </div>
       </div>

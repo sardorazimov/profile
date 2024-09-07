@@ -11,7 +11,7 @@ import { Bento } from "./Bento"
 const Landing = () => {
     return (
         <div className="flex w-full h-full ">
-            <TracingBeam className="px-6">
+            <TracingBeam className="">
                 <div className="max-w-screen-2xl mx-auto antialiased  relative">
                     <div className=" w-full ">
                       <Bento />  
