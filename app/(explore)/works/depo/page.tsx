@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/Card"
 import Link from "next/link"
 import WorksDialog from "./dialog"
+import Image from "next/image"
 
 
 const page = () => {
@@ -47,7 +48,7 @@ const page = () => {
           <h2 className="text-2xl font-bold mb-4">Featured Books</h2>
           <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6">
             <Card className="bg-background shadow-md rounded-lg border-white/15  overflow-hidden h-96 ">
-              <img
+              <Image
                 src="/img/coming-soon.png"
                 alt="Book Cover"
                 width={300}
@@ -62,7 +63,7 @@ const page = () => {
               </CardContent>
             </Card>
             <Card className="bg-background shadow-md rounded-lg border-white/15 h-96 overflow-hidden">
-              <img
+              <Image
                 src="/img/coming-soon.png"
                 alt="Book Cover"
                 width={300}
@@ -78,7 +79,7 @@ const page = () => {
               </CardContent>
             </Card>
             <Card className="bg-background shadow-md rounded-lg border-white/15 h-96 overflow-hidden">
-              <img
+              <Image
                 src="/img/coming-soon.png"
                 alt="Book Cover"
                 width={300}
@@ -94,7 +95,7 @@ const page = () => {
               </CardContent>
             </Card>
             <Card className="bg-background shadow-md rounded-lg border-white/15 h-96 overflow-hidden">
-              <img
+              <Image
                 src="/img/coming-soon.png"
                 alt="Book Cover"
                 width={300}
@@ -162,7 +163,7 @@ const page = () => {
           <h2 className="text-2xl font-bold mb-4">Recommended Books</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
             <Card className="bg-background shadow-md rounded-lg border-white/15 h-96 overflow-hidden">
-              <img
+              <Image
                 src="/img/coming-soon.png"
                 alt="Book Cover"
                 width={300}
@@ -178,7 +179,7 @@ const page = () => {
               </CardContent>
             </Card>
             <Card className="bg-background shadow-md rounded-lg border-white/15 h-96 overflow-hidden">
-              <img
+              <Image
                 src="/img/coming-soon.png"
                 alt="Book Cover"
                 width={300}
@@ -194,7 +195,7 @@ const page = () => {
               </CardContent>
             </Card>
             <Card className="bg-background shadow-md rounded-lg border-white/15 h-96 overflow-hidden">
-              <img
+              <Image
                 src="/img/coming-soon.png"
                 alt="Book Cover"
                 width={300}
@@ -210,7 +211,7 @@ const page = () => {
               </CardContent>
             </Card>
             <Card className="bg-background shadow-md rounded-lg border-white/15 h-96 overflow-hidden">
-              <img
+              <Image
                 src="/img/coming-soon.png"
                 alt="Book Cover"
                 width={300}
