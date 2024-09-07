@@ -68,7 +68,7 @@ const page = () => {
                 <div>
                   <h2 className="text-4xl font-bold">About Mantibot.ai</h2>
                   <p className="mt-6 text-[#b3b3b3]">
-                    Mantibot.ai is a leading robotics company dedicated to pushing the boundaries of what's possible. Our
+                    Mantibot.ai is a leading robotics company dedicated to pushing the boundaries of whats possible. Our
                     team of world-class engineers and researchers are driven by a passion for innovation and a commitment to
                     creating a better future.
                   </p>
