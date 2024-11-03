@@ -1,11 +1,15 @@
-import Landing from "@/components/Pages/Landing"
-
+import AmazingBg from '@/components/svg/AmazingBg'
+import GridBackground from '@/components/svg/GridBackground'
+import RgbBackground from '@/components/svg/RgbBackground'
+import React from 'react'
 
 const page = () => {
   return (
-    <main className="py-24">
-         <Landing />
-    </main>
+    <div>
+      <AmazingBg/>
+      {/* <GridBackground /> */}
+      {/* <RgbBackground /> */}
+    </div>
   )
 }
 

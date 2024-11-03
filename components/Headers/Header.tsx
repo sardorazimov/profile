@@ -1,6 +1,11 @@
-import ExampleNavbar from "../example/ExampleNavbar"
+// components/StickyHeader.tsx
+"use client"
+import React, { useEffect, useState } from 'react';
+import ExampleNavbar from './ExampleNavbar';
 
-const Header = () => {
+
+const StickyHeader  = () => {
+
   return (
     <header className=" bg-transparent  px-4 lg:px-8 border-neutral-700 z-50 fixed w-full   ">
       <div className="max-w-screen-2xl flex   ">
@@ -12,7 +17,7 @@ const Header = () => {
         </nav>
       </div>
     </header>
-  )
-}
+  );
+};
 
-export default Header
+export default StickyHeader;
