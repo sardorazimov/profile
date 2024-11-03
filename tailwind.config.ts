@@ -70,6 +70,14 @@ const config = {
           from: { height: "0" },
           to: { height: "var(--radix-accordion-content-height)" },
         },
+        marquee: {
+          from: { transform: "translateX(0)" },
+          to: { transform: "translateX(calc(-100% - var(--gap)))" },
+        },
+        "marquee-vertical": {
+          from: { transform: "translateY(0)" },
+          to: { transform: "translateY(calc(-100% - var(--gap)))" },
+        },
    
         "accordion-up": {
           from: { height: "var(--radix-accordion-content-height)" },
@@ -116,6 +124,8 @@ const config = {
          gradient: "gradient 8s linear infinite",
          backgroundPositionSpin: "background-position-spin 3000ms infinite alternate",
          ripple:  "ripple var(--duration,2s) ease calc(var(--i, 0)*.2s) infinite",
+         marquee: "marquee var(--duration) linear infinite",
+        "marquee-vertical": "marquee-vertical var(--duration) linear infinite",
 
       },
     },
