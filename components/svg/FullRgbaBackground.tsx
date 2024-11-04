@@ -8,16 +8,16 @@ const colors = ["#ff0000", "#00ff00", "#0000ff", "#ffff00", "#ff00ff", "#00ffff"
 export default function Component() {
   const [particles, setParticles] = useState([])
 
-  useEffect(() => {
-    const newParticles = Array.from({ length: 30 }, (_, i) => ({
-      id: i,
-      x: Math.random() * 100,
-      y: Math.random() * 100,
-      size: Math.random() * 6 + 2,
-      color: colors[Math.floor(Math.random() * colors.length)],
-    }))
-    setParticles(newParticles)
-  }, [])
+  // useEffect(() => {
+  //   const newParticles = Array.from({ length: 30 }, (_, i) => ({
+  //     id: i,
+  //     x: Math.random() * 100,
+  //     y: Math.random() * 100,
+  //     size: Math.random() * 6 + 2,
+  //     color: colors[Math.floor(Math.random() * colors.length)],
+  //   }))
+  //   setParticles(newParticles)
+  // }, [])
 
   return (
     <div className="relative h-screen w-full bg-black overflow-hidden">
@@ -74,7 +74,7 @@ export default function Component() {
       </svg>
 
       {/* Animated multi-colored particles */}
-      <svg className="absolute inset-0 w-full h-full">
+      {/* <svg className="absolute inset-0 w-full h-full">
         {particles.map((particle) => (
           <motion.circle
             key={particle.id}
@@ -94,7 +94,7 @@ export default function Component() {
             }}
           />
         ))}
-      </svg>
+      </svg> */}
 
       {/* Content */}
       <div className="relative z-10 flex flex-col items-center justify-center h-full text-center px-4">

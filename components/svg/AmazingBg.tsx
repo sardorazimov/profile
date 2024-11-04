@@ -1,20 +1,20 @@
 "use client"
 
 import { motion } from "framer-motion"
-import { useEffect, useState } from "react"
+import { SetStateAction, useEffect, useState } from "react"
 
 export default function AmazingBg() {
-  const [particles, setParticles] = useState([])
+  const [particles, setParticles] = useState<never[]>([])
 
-  useEffect(() => {
-    const newParticles = Array.from({ length: 20 }, (_, i) => ({
-      id: i,
-      x: Math.random() * 100,
-      y: Math.random() * 100,
-      size: Math.random() * 6 + 2,
-    }))
-    setParticles(newParticles)
-  }, [])
+  // useEffect(() => {
+  //   const newParticles = Array.from({ length: 20 }, (_, i) => ({
+  //     id: i,
+  //     x: Math.random() * 100,
+  //     y: Math.random() * 100,
+  //     size: Math.random() * 6 + 2,
+  //   }))
+  //   setParticles(newParticles)
+  // }, [])
 
   return (
     <div className="h-screen w-full bg-black overflow-hidden">
@@ -52,7 +52,7 @@ export default function AmazingBg() {
       </svg>
 
       {/* Animated particles */}
-      <svg className="absolute inset-0 w-full h-full">
+      {/* <svg className="absolute inset-0 w-full h-full">
         {particles.map((particle) => (
           <motion.circle
             key={particle.id}
@@ -72,7 +72,7 @@ export default function AmazingBg() {
             }}
           />
         ))}
-      </svg>
+      </svg> */}
 
       {/* Content */}
       <div className="relative z-10 flex flex-col items-center justify-center h-full text-center px-4">

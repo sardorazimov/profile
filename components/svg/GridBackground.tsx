@@ -9,16 +9,16 @@ const colors = ["#ff0000", "#00ff00", "#0000ff", "#ffff00", "#ff00ff", "#00ffff"
 export default function GridBackground() {
   const [particles, setParticles] = useState([])
 
-  useEffect(() => {
-    const newParticles = Array.from({ length: 30 }, (_, i) => ({
-      id: i,
-      x: Math.random() * 100,
-      y: Math.random() * 100,
-      size: Math.random() * 6 + 2,
-      color: colors[Math.floor(Math.random() * colors.length)],
-    }))
-    setParticles(newParticles)
-  }, [])
+  // useEffect(() => {
+  //   const newParticles = Array.from({ length: 30 }, (_, i) => ({
+  //     id: i,
+  //     x: Math.random() * 100,
+  //     y: Math.random() * 100,
+  //     size: Math.random() * 6 + 2,
+  //     color: colors[Math.floor(Math.random() * colors.length)],
+  //   }))
+  //   setParticles(newParticles)
+  // }, [])
 
   return (
     <>
@@ -84,7 +84,7 @@ export default function GridBackground() {
       </svg>
 
       {/* Animated multi-colored particles */}
-      <svg className="absolute inset-0 w-full h-full">
+      {/* <svg className="absolute inset-0 w-full h-full">
         {particles.map((particle) => (
           <motion.circle
             key={particle.id}
@@ -104,7 +104,7 @@ export default function GridBackground() {
             }}
           />
         ))}
-      </svg>
+      </svg> */}
 
       {/* Content */}
       <div className=" z-10 flex flex-col items-center justify-center h-full text-center px-4">
