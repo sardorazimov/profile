@@ -1,10 +1,12 @@
 "use client"
 
 import { motion } from "framer-motion"
+import { useRouter } from "next/navigation"
 import { useEffect, useState } from "react"
 
 export default function RgbBackground() {
   const [particles, setParticles] = useState([])
+  const router = useRouter()
 
   // useEffect(() => {
   //   const newParticles = Array.from({ length: 20 }, (_, i) => ({
@@ -118,10 +120,11 @@ export default function RgbBackground() {
           transition={{ duration: 0.8, delay: 0.4 }}
           className="flex flex-col sm:flex-row gap-4"
         >
-          <button className="px-8 py-3 bg-white text-black rounded-full font-medium hover:bg-gray-100 transition-colors">
+          <button className="px-8 py-3 bg-gradient-to-b from-purple-800 to-green-700 text-white rounded-full font-medium transition-colors">
             Buy now
           </button>
-          <button className="px-8 py-3 bg-gray-800 text-white rounded-full font-medium hover:bg-gray-700 transition-colors">
+          <button onClick={() => router.push('/works')}
+          className="px-8 py-3 bg-gradient-to-b to-blue-700 from-fuchsia-800 text-white rounded-full font-medium  transition-colors">
             Explore beams
           </button>
         </motion.div>

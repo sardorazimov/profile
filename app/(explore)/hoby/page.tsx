@@ -1,5 +1,5 @@
 
-import greensvg from "@/public/green.svg"
+
 
 
 const page = () => {

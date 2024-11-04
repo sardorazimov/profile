@@ -2,6 +2,7 @@
 /* eslint-disable @next/next/no-img-element */
 /* eslint-disable jsx-a11y/alt-text */
 import React from 'react'
+import { MobileNavbar } from './MobileNavbar'
 
 
 const ExampleNavbar = () => {
@@ -43,7 +44,7 @@ const ExampleNavbar = () => {
                     <img src="/svg/logo.svg" className="h-5 w-6   rounded-br-lg rounded-tr-sm rounded-tl-lg rounded-bl-sm" />
                     <span className="font-medium text-white">Azimov</span>
                     </a>
-                   {/* Mobilr */}
+                   <MobileNavbar/>
                 </div>
             </div>
         </nav>
