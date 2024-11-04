@@ -24,7 +24,7 @@ export function MobileNavbar() {
   return (
     <div className="">
         <Sheet  >
-          <SheetTrigger asChild className="border-white/10 border">
+          <SheetTrigger asChild>
           <BiMenuAltRight size={27} />
           </SheetTrigger>
           <SheetContent side={'right'}>
