@@ -25,7 +25,7 @@ const DummyContent = () => {
         return (
           <div
             key={"dummy-content" + index}
-            className="bg-[#F5F5F7] dark:bg-neutral-800 p-8 md:p-14 rounded-3xl mb-4"
+            className="bg-neutral-800 p-8 md:p-14 rounded-3xl mb-4"
           >
             <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto">
               <span className="font-bold text-neutral-700 dark:text-neutral-200">
@@ -37,7 +37,7 @@ const DummyContent = () => {
               thought.
             </p>
             <Image
-              src=""
+              src="/images/images5.jpg"
               alt="Macbook mockup from Aceternity UI"
               height="500"
               width="500"
@@ -54,38 +54,38 @@ const data = [
   {
     category: "Artificial Intelligence",
     title: "You can do more with AI.",
-    src: "",
+    src: "/images/images1.png",
     content: <DummyContent />,
   },
   {
     category: "Productivity",
     title: "Enhance your productivity.",
-    src: "",
+    src: "/images/images2.png",
     content: <DummyContent />,
   },
   {
     category: "Product",
     title: "Launching the new Apple Vision Pro.",
-    src: "",
+    src: "/images/images3.png",
     content: <DummyContent />,
   },
 
   {
     category: "Product",
     title: "Maps for your iPhone 15 Pro Max.",
-    src: "",
+    src: "/images/images5.jpg",
     content: <DummyContent />,
   },
   {
     category: "iOS",
     title: "Photography just got better.",
-    src: "",
+    src: "/images/images5.jpg",
     content: <DummyContent />,
   },
   {
     category: "Hiring",
     title: "Hiring for a Staff Software Engineer",
-    src: "",
+    src: "/images/images5.jpg",
     content: <DummyContent />,
   },
 ];
